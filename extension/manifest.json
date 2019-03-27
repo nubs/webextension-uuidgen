@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "uuidgen",
+  "version": "1.0",
+  "description": "Generates a UUID to your clipboard",
+  "homepage_url": "https://github.com/nubs/webextension-uuidgen",
+  "permissions": [
+    "clipboardWrite"
+  ],
+  "browser_action": {
+    "default_icon": "icons/uuidgen-32.png",
+    "default_title": "uuidgen"
+  },
+  "background": {
+    "scripts": ["uuidgen.js"]
+  }
+}

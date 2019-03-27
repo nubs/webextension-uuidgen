@@ -1,0 +1,19 @@
+{
+  "name": "webextension-uuidgen",
+  "version": "0.1.0",
+  "description": "A WebExtension that puts a random UUID into your clipboard.",
+  "main": "uuidgen.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Spencer Rinehart <anubis@overthemonkey.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^3.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
