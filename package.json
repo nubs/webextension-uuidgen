@@ -9,11 +9,11 @@
   "author": "Spencer Rinehart <anubis@overthemonkey.com>",
   "license": "MIT",
   "devDependencies": {
-    "web-ext": "^3.1.1",
-    "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6"
+    "web-ext": "^3.2.1",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.3"
   }
 }
